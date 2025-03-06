@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", "sans-serif";
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.container{
+  overflow: hidden;
+  width: 100%;
+  min-height: 95vh;
+  background-image: url(./images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  /* background-color: #FCE77D;  */
+  padding: 10px;
+}
+
+.todo-app{
+  width: 100%;
+  max-width: 540px;
+  background-color:white;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 5px;
+}
+
+.todo-app h2{
+  color: #F96167;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  font-weight: 800;
+}
+
+.todo-app h2 img{
+  width: 30px;
+  margin-left: 10px;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #edeef0;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+input{
+  flex:1;
+  border: none;
+  outline: none;
+  background:transparent;
+  padding:10px;
+}
+
+
+button{
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  background: #F96167;
+  color: #FCE77D;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+ul li{
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 12px 8px 12px 50px;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+}
+
+ul li:before{
+  content: '';
+  position:absolute;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background-image: url(images/unchecked.png);
+  background-size: cover;
+  background-position: center;
+  top: 12px;
+  left: 8px;
+}
+
+ul li.checked{
+  color: #555;
+  text-decoration: line-through;
+}
+
+ul li.checked::before{
+  background-image: url(images/checked.png);
+}
+
+ul li span{
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  color: #555;
+  line-height:40px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+ul li span:hover{
+  background: #E23D28;
+}
+
+/* #edeef0 */
+
+#footer {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  background: #FCE77D;
+  padding: 0px 0;
+  position: relative;
+  margin-bottom: 100px;
+  bottom: 10px;
+  width: 100%;
+  /* border: 0.5px solid black;
+  border-radius: 3px; */
+}
+/* Footer Icons */
+#footer a {
+  display: inline-block; 
+  margin: 0 15px; 
+  text-align: none;
+}
+
+#footer img {
+  width: 50px; 
+  height: 50px;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+
+#footer img:hover {
+  transform: scale(1.2);
+}
+
+#footer p{
+  margin-left: -100px;
+  color: #F96167;
+}
