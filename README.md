@@ -41,6 +41,6 @@ This repository contains the source code for To-Do-List App website.
 
 Live - https://mangalam-17.github.io/To-Do-List/
 
-Uploading "Screenshot 2025-03-07 at 5.30.36 AM.png"
-Uploading "Screenshot 2025-03-07 at 5.31.05 AM.png"
-Uploading "Screenshot 2025-03-07 at 5.31.12 AM.png"
+"Screenshot 2025-03-07 at 5.30.36 AM.png"
+"Screenshot 2025-03-07 at 5.31.05 AM.png"
+"Screenshot 2025-03-07 at 5.31.12 AM.png"
